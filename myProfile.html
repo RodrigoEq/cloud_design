@@ -30,22 +30,22 @@
 	  	<div class="collapse navbar-collapse" id="navbarNav">
 	    	<ul class="navbar-nav">
 	      		<li class="nav-item">
-	        		<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	        		<a class="nav-link" href="homeLogin.html">Home <span class="sr-only">(current)</span></a>
 	      		</li>
 	      		<li class="nav-item">
-	        		<a class="nav-link" href="#">Buy</a>
+	        		<a class="nav-link" href="buy.html">Buy</a>
 	      		</li>
 	      		<li class="nav-item">
-	        		<a class="nav-link" href="#">Design</a>
+	        		<a class="nav-link" href="designShirt.html">Design</a>
 	      		</li>
 	      		<li class="nav-item">
-	        		<a class="nav-link" href="#">My Profile</a>
+	        		<a class="nav-link" href="myProfile.html">My profile</a>
 	      		</li>
 	      		<li class="nav-item">
-	        		<a class="nav-link" href="#">FAQ</a>
+	        		<a class="nav-link" href="faq.html">FAQ</a>
 	      		</li>
 	      		<li class="nav-item">
-	        		<a class="nav-link" href="#">Logout</a>
+	        		<a class="nav-link" href="index.html">Logout</a>
 	      		</li>
 	    	</ul>
 	  	</div>
@@ -54,34 +54,32 @@
 		<h2>My profile</h2>
 
 		<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-		    <div class="uk-card-media-left uk-cover-container">
-		        <img src="images/user-male-icon.png" alt="" uk-cover>
-		        <canvas width="600" height="400"></canvas>
+		    <div class="uk-card-media-left uk-cover-container text-center">
+		        <img class="image-fluid" src="images/user-icon.png" width="300" alt="">
 		    </div>
 		    <div>
 		        <div class="uk-card-body">
-		            <h2>Username</h2>
-		            <h2 class="uk-card-title"> Member since: DD/MM/YYYY </h2>
-		            <h2 class="uk-card-title"> Last login: DD/MM/YYYY </h2>
-		            <h2 class="uk-card-title"> First Name Last Name </h2>
-		            <h2 class="uk-card-title"> E-mail example@hotmail.com </h2>
+		            <h3>Username</h3>
+		            <p class="uk-card-title"> Member since: DD/MM/YYYY </p>
+		            <p class="uk-card-title"> Last login: DD/MM/YYYY </p>
+		            <p class="uk-card-title"> First Name Last Name </p>
+		            <p class="uk-card-title"> E-mail example@hotmail.com </p>
 		        </div>
 		    </div>
 		</div>
 
 		
-		<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+		<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s" uk-grid>
 		    <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
-		        <img src="images/stats.png" alt="" uk-cover>
-		        <canvas width="600" height="400"></canvas>
+		        <img src="images/stats.svg"  alt="" width= "300" >
 		    </div>
 		    <div>
 		        <div class="uk-card-body">
 		            <h3 class="uk-card-title">Sales information</h3>
-		            <h4 class="uk-card-title"> Listed Models: 3 </h4>
-		            <h4 class="uk-card-title"> Pending Models: 2 </h4>
-		            <h4 class="uk-card-title"> Total Uploaded Models: 5 </h4>
-		            <h4 class="uk-card-title"> Total Selled Models: 0 </h4>
+		            <p class="uk-card-title"> Listed Models: 3 </p>
+		            <p class="uk-card-title"> Pending Models: 2 </p>
+		            <p class="uk-card-title"> Total Uploaded Models: 5 </p>
+		            <p class="uk-card-title"> Total Selled Models: 0 </p>
 		        </div>
 		    </div>
 		</div>
@@ -95,27 +93,67 @@
 	        
 	        <li>
         		<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-            		<img class="uk-transition-scale-up uk-transition-opaque" src="images/slider6.jpg" alt="">
+            		<div class="card uk-transition-scale-up uk-transition-opaque" style="width: 12rem;">
+					  <div class="card-body">
+					  	<a href="shirtDetails.html">
+					  		<img class="card-img-top" src="images/slider6.jpg" alt="Card image cap">
+					  	</a>
+					    <h5 class="card-title">Name</h5>
+					    <a href="#" class="btn btn-primary">Edit</a>
+					    <a href="#" class="btn btn-danger">Remove</a>
+					  </div>
+					</div>
         		</div>
 	        </li>
 	        <li>
 	            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-            		<img class="uk-transition-scale-up uk-transition-opaque" src="images/slider7.jpg" alt="">
+      
+            	<div class="card uk-transition-scale-up uk-transition-opaque" style="width: 12rem;">
+					  <div class="card-body">
+				  		<img class="card-img-top" src="images/slider7.jpg" alt="Card image cap">
+					    <h5 class="card-title">Name</h5>
+					    <a href="#" class="btn btn-primary">Edit</a>
+					    <a href="#" class="btn btn-danger">Remove</a>
+					  </div>
+					</div>
+        		</div>
+        		
+	        </li>
+	        <li>
+	            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+            		<div class="card uk-transition-scale-up uk-transition-opaque" style="width: 12rem;">
+					  <div class="card-body">
+				  		<img class="card-img-top" src="images/slider8.jpg" alt="Card image cap">
+					    <h5 class="card-title">Name</h5>
+					    <a href="#" class="btn btn-primary">Edit</a>
+					    <a href="#" class="btn btn-danger">Remove</a>
+					  </div>
+					</div>
         		</div>
 	        </li>
 	        <li>
 	            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-            		<img class="uk-transition-scale-up uk-transition-opaque" src="images/slider8.jpg" alt="">
-        		</div>
-	        </li>
-	        <li>
-	            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-            		<img class="uk-transition-scale-up uk-transition-opaque" src="images/slider9.jpg" alt="">
+            		<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+            		<div class="card uk-transition-scale-up uk-transition-opaque" style="width: 12rem;">
+					  <div class="card-body">
+				  		<img class="card-img-top" src="images/slider9.jpg" alt="Card image cap">
+					    <h5 class="card-title">Name</h5>
+					    <a href="#" class="btn btn-primary">Edit</a>
+					    <a href="#" class="btn btn-danger">Remove</a>
+					  </div>
+					</div>
         		</div>
 	        </li>
 	        <li>
 	        	<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-            		<img class="uk-transition-scale-up uk-transition-opaque" src="images/slider0.jpg" alt="">
+            		<div class="card uk-transition-scale-up uk-transition-opaque" style="width: 12rem;">
+					  <div class="card-body">
+				  		<img class="card-img-top" src="images/slider0.jpg" alt="Card image cap">
+					    <h5 class="card-title">Name</h5>
+					    <a href="#" class="btn btn-primary">Edit</a>
+					    <a href="#" class="btn btn-danger">Remove</a>
+					  </div>
+					</div>
         		</div>
 	        </li>
 	    </ul>
@@ -130,7 +168,14 @@
 	    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
 	        <li>
 	        	<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-            		<img href="#modal-media-image" class="uk-transition-scale-up uk-transition-opaque" src="images/slider1.jpg" alt="" uk-toggle>
+            		<div class="card uk-transition-scale-up uk-transition-opaque" style="width: 12rem;">
+					  <div class="card-body">
+				  		<img class="card-img-top" src="images/slider1.jpg" alt="Card image cap">
+					    <h5 class="card-title">Name</h5>
+					    <a href="#" class="btn btn-primary">Edit</a>
+					    <a href="#" class="btn btn-danger">Remove</a>
+					  </div>
+					</div>
         		</div>
 	        	<div id="modal-media-image" class="uk-flex-top" uk-modal>
 				    <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical uk-inline-clip uk-transition-toggle">
@@ -141,22 +186,50 @@
 	        </li>
 	        <li>
 	            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-            		<img class="uk-transition-scale-up uk-transition-opaque" src="images/slider2.jpg" alt="">
+            		<div class="card uk-transition-scale-up uk-transition-opaque" style="width: 12rem;">
+					  <div class="card-body">
+				  		<img class="card-img-top" src="images/slider2.jpg" alt="Card image cap">
+					    <h5 class="card-title">Name</h5>
+					    <a href="#" class="btn btn-primary">Edit</a>
+					    <a href="#" class="btn btn-danger">Remove</a>
+					  </div>
+					</div>
         		</div>
 	        </li>
 	        <li>
 	            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-            		<img class="uk-transition-scale-up uk-transition-opaque" src="images/slider3.jpg" alt="">
+            		<div class="card uk-transition-scale-up uk-transition-opaque" style="width: 12rem;">
+					  <div class="card-body">
+				  		<img class="card-img-top" src="images/slider3.jpg" alt="Card image cap">
+					    <h5 class="card-title">Name</h5>
+					    <a href="#" class="btn btn-primary">Edit</a>
+					    <a href="#" class="btn btn-danger">Remove</a>
+					  </div>
+					</div>
         		</div>
 	        </li>
 	        <li>
 	            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-            		<img class="uk-transition-scale-up uk-transition-opaque" src="images/slider4.jpg" alt="">
+            		<div class="card uk-transition-scale-up uk-transition-opaque" style="width: 12rem;">
+					  <div class="card-body">
+				  		<img class="card-img-top" src="images/slider4.jpg" alt="Card image cap">
+					    <h5 class="card-title">Name</h5>
+					    <a href="#" class="btn btn-primary">Edit</a>
+					    <a href="#" class="btn btn-danger">Remove</a>
+					  </div>
+					</div>
         		</div>
 	        </li>
 	        <li>
 	            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-            		<img class="uk-transition-scale-up uk-transition-opaque" src="images/slider5.jpg" alt="">
+            		<div class="card uk-transition-scale-up uk-transition-opaque" style="width: 12rem;">
+					  <div class="card-body">
+				  		<img class="card-img-top" src="images/slider5.jpg" alt="Card image cap">
+					    <h5 class="card-title">Name</h5>
+					    <a href="#" class="btn btn-primary">Edit</a>
+					    <a href="#" class="btn btn-danger">Remove</a>
+					  </div>
+					</div>
         		</div>
 	        </li>
 	    </ul>
